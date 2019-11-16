@@ -6,7 +6,7 @@ Now, AWS Lambda for JavaScript runtime has `aws-sdk@2.488.0` that already includ
 
 ## What does change
 
-Please see [aws-sdk-js/CHANGELOG](https://github.com/aws/aws-sdk-js/blob/master/CHANGELOG.md) with a search of `apigatewaymanagementapi`. Now, there is an only change for `DeleteConnection` API.
+Please see [aws-sdk-js/CHANGELOG](https://github.com/aws/aws-sdk-js/blob/master/CHANGELOG.md) with a search of `apigatewaymanagementapi`. Now, there is the only change for `DeleteConnection` API.
 
 ## How to use
 
@@ -30,7 +30,7 @@ This code is copied from [aws-sdk-js](https://github.com/aws/aws-sdk-js).
 - [apigatewaymanagementapi.js](https://github.com/aws/aws-sdk-js/blob/master/clients/apigatewaymanagementapi.js)
 - [apigatewaymanagementapi-2018-11-29.min.json](https://github.com/aws/aws-sdk-js/blob/master/apis/apigatewaymanagementapi-2018-11-29.min.json)
 
-Unlike [guerrerocarlos/AWS-ApiGatewayManagementApi](https://github.com/guerrerocarlos/AWS-ApiGatewayManagementApi), it will patch anyway if there is a newly module in your `aws-sdk` so please be careful.
+Unlike [guerrerocarlos/AWS-ApiGatewayManagementApi](https://github.com/guerrerocarlos/AWS-ApiGatewayManagementApi), **it will patch anyway if there is a newly module in your `aws-sdk` so please be careful.**
 
 ## License
 
