@@ -1,6 +1,6 @@
 {
   "name": "@yingyeothon/aws-apigateway-management-api",
-  "version": "0.0.1",
+  "version": "2.536.0",
   "description": "A patch for lower version of AWS-SDK if or if not has ApiGatewayManagementApi.",
   "repository": "https://github.com/yingyeothon/aws-apigateway-management-api",
   "author": "jaeyoung.choi <lactrious@gmail.com>",
