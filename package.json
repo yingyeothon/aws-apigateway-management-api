@@ -1,0 +1,31 @@
+{
+  "name": "@yingyeothon/aws-apigateway-management-api",
+  "version": "0.0.1",
+  "description": "A patch for lower version of AWS-SDK if or if not has ApiGatewayManagementApi.",
+  "repository": "https://github.com/yingyeothon/aws-apigateway-management-api",
+  "author": "jaeyoung.choi <lactrious@gmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "@types/node": "10",
+    "aws-sdk": "2.488.0",
+    "prettier": "^1.19.1",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.2"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "rules": {
+    "object-literal-sort-keys": false,
+    "no-console": false,
+    "interface-over-type-literal": false,
+    "interface-name": false,
+    "max-classes-per-file": false,
+    "await-promise": true,
+
+    "member-ordering": false,
+    "member-access": false,
+    "no-string-literal": false,
+    "no-namespace": false,
+    "no-var-requires": false,
+    "no-empty-interface": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "**/node_modules/**",
+      "**/lib/**",
+      ".webpack/**/*.js",
+      "webpack.config.js"
+    ]
+  }
+}

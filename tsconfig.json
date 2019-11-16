@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "target": "es6",
+    "sourceMap": true,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es2017"],
+
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "strictFunctionTypes": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "strictPropertyInitialization": true,
+
+    "outDir": "./lib"
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}
