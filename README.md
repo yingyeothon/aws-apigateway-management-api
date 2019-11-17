@@ -10,6 +10,10 @@ Please see [aws-sdk-js/CHANGELOG](https://github.com/aws/aws-sdk-js/blob/master/
 
 ## How to use
 
+```bash
+yarn add @yingyeothon/aws-apigateway-management-api
+```
+
 ```typescript
 import { newApiGatewayManagementApi } from "@yingyeothon/aws-apigateway-management-api";
 
